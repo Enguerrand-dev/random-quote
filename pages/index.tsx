@@ -42,17 +42,17 @@ const Home = ({ quotes }: Props) => {
               <button
                 id="new-quote"
                 onClick={handleQuote}
-                className="rounded-3xl bg-blue-500  font-bold text-white transition-colors duration-200 ease-in-out hover:bg-blue-700"
+                className="flex h-8 w-8  items-center justify-center rounded-3xl bg-blue-500  font-bold text-white transition-colors duration-200 ease-in-out hover:bg-blue-700"
               >
-                <BiRefresh className="h-7 w-7" />
+                <BiRefresh className="h-6 w-6" />
               </button>
               <a
                 id="tweet-quote"
                 target={'_blank'}
                 href={`https://twitter.com/intent/tweet/?text:${quote?.quote}`}
-                className="rounded-3xl bg-blue-500  font-bold text-white transition-colors duration-200 ease-in-out hover:bg-blue-700"
+                className="flex h-8 w-8  items-center justify-center rounded-3xl bg-blue-500 font-bold text-white transition-colors duration-200 ease-in-out hover:bg-blue-700"
               >
-                <AiOutlineTwitter className="h-7 w-7 text-white" />
+                <AiOutlineTwitter className="h-6 w-6 text-white" />
               </a>
             </div>
           </div>
